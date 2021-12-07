@@ -1,0 +1,57 @@
+
+
+ /* * {
+    border: 1px solid red;
+
+} */
+
+.header1 {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 5%;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    text-align: center;
+    width: auto;
+    height: 400px;
+}
+
+
+.tictac {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}   
+
+.a1, .a2, .a3, .b1, .b2, .b3, .c1, .c2, .c3 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.a1, .a2, .b1, .b2 {
+    border-right:  solid black;
+    border-bottom: solid black ;
+
+}
+
+.a3, .b3 {
+    border-bottom: solid black;
+}
+
+.c1, .c2 {
+    border-right: solid black;
+} 
+
+.reset-btn {
+    /* text-align: center; */
+margin-left: 460px;
+/* padding-top: 20px; */
+/* border-top: 20px; */
+}
+
+
+
+
